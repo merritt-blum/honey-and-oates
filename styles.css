@@ -14,6 +14,14 @@ header {
     font-family: 'Abril Fatface', serif;
 }
 
+.logo {
+    width: 200px;
+    height: auto;
+    margin-top: 0cm;
+    margin-bottom: 0cm;
+}
+
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -25,17 +33,23 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #f7cb2d; /* Georgia Tech gold */
+    color: #f7cb2d;
     text-decoration: none;
 }
 
 .hero {
     background-image: url('path-to-hero-image.jpg');
     background-size: cover;
-    color: #f7cb2d; /* Georgia Tech gold */
+    color: #f7cb2d; 
     text-align: center;
-    padding: 4em 0;
+    padding: .5em 0;
     font-family: 'Abril Fatface', serif;
+}
+
+.hero-image {
+    width: 50%;
+    height: auto;
+    margin-top: 1.5em;
 }
 
 main {
@@ -95,27 +109,8 @@ footer {
 }
 
 .past-events .event img {
-    width: 150px;
-    height: 150px;
-}
-
-.photo-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.photo-gallery img {
-    margin: 1em;
-    width: 200px;
-    height: auto;
-}
-
-.video-gallery iframe {
-    width: 100%;
-    max-width: 560px;
-    height: 315px;
-    margin: 1em 0;
+    width: 250px;
+    height: 350px;
 }
 
 form {
@@ -155,7 +150,7 @@ form button:hover {
 .social-media a {
     margin-right: 1em;
     text-decoration: none;
-    color: #1c6430; 
+    color: #fff; 
     font-family: 'Lobster', cursive;
 }
 
@@ -163,15 +158,23 @@ form button:hover {
     text-decoration: underline;
 }
 
+.social-media .instagram-logo {
+    width: 70px;
+    height: 70px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
 .members {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .member {
     margin: 1em;
     text-align: center;
+    flex: 1;
 }
 
 .member img {

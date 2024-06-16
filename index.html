@@ -1,22 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Honey & Oates - Official Website</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Abril+Fatface&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Honey & Oates - Official Website</title>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Abril+Fatface&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
 <body>
     <header>
-        <h1>Honey & Oates</h1>
+        <img src="logomain.png" alt="Honey & Oates Logo" class="logo">
         <nav>
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li><a href="#music">Music</a></li>
                 <li><a href="#events">Events</a></li>
-                <li><a href="#gallery">Gallery</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -24,8 +22,9 @@
     <main>
         <section id="home">
             <div class="hero">
-                <h1>Welcome to Honey & Oates</h1>
-                <p>Experience the best of our music</p>
+                <h1>Feel the Rhythm of Honey & Oates!</h1>
+                <p>Honey & Oates is a musical duo who play an eclectic mix of acoustic covers and originals.</p>
+                <img src="banner.png" alt="Honey & Oates Banner" class="hero-image">
             </div>
         </section>
         <section id="about">
@@ -35,62 +34,51 @@
                 <div class="member">
                     <img src="kristina.png" alt="Kristina">
                     <h3>Kristina</h3>
-                    <p>Role: [Role in Band]</p>
-                    <p>Bio: [Short bio about Kristina]</p>
+                    <p>Meet Kristina, the guitar-strumming, songbird half of Honey & Oates! With a voice as sweet as honey 
+                        and guitar skills that get everyone grooving, she's the heart and soul of the band. Her infectious 
+                        energy and spontaneous spirit turn every day into a fun adventure. Get ready to sing along and dance 
+                        with Kristina—life's a jam session with her around!</p>
                 </div>
                 <div class="member">
                     <img src="steve.png" alt="Stephen">
                     <h3>Stephen</h3>
-                    <p>Role: [Role in Band]</p>
-                    <p>Bio: [Short bio about Stephen]</p>
+                    <p>Meet Stephen, the other guitar-slinging, melody-making dynamo of Honey & Oates! With vocals that 
+                        harmonize perfectly and guitar riffs that electrify, Stephen brings a cool energy to every performance.
+                        He can be found crafting new tunes or digging into the oldies. Join Stephen for an unforgettable musical 
+                        journey—because with him, every day is a concert!</p>
                 </div>
-            </div>
-        </section>
-        <section id="music">
-            <h2>Our Music</h2>
-            <div class="music-player">
-                <!-- No Spotify link available -->
-                <p>Stay tuned for our latest tracks!</p>
-            </div>
-            <div class="albums">
-                <div class="album">
-                    <img src="path-to-album-cover.jpg" alt="Album Cover">
-                    <p>Album Name</p>
-                </div>
-                <!-- Add more albums as needed -->
             </div>
         </section>
         <section id="events">
             <h2>Upcoming Shows</h2>
             <ul>
-                <li>July 15, 2024 - [Venue Name], [City] <a href="ticket-link">Buy Tickets</a></li>
-                <!-- Add more events as needed -->
+                <li>No shows coming up!</li>
+                <!-- <li>July 15, 2024 - [Venue Name], [City] <a href="ticket-link">Buy Tickets</a></li> -->
             </ul>
             <h2>Past Events</h2>
             <div class="past-events">
                 <div class="event">
-                    <img src="path-to-event-photo.jpg" alt="Event Photo">
-                    <p>Event Name - Date</p>
+                    <img src="smile2.jpeg" alt="Event Photo">
+                    <p>Parson's Alley Duluth</p>
                 </div>
-                <!-- Add more past events as needed -->
-            </div>
-        </section>
-        <section id="gallery">
-            <h2>Gallery</h2>
-            <div class="photo-gallery">
-                <img src="path-to-photo1.jpg" alt="Photo 1">
-                <img src="path-to-photo2.jpg" alt="Photo 2">
-                <!-- Add more photos as needed -->
-            </div>
-            <h2>Videos</h2>
-            <div class="video-gallery">
-                <iframe src="https://www.youtube.com/embed/video_id" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                <!-- Add more videos as needed -->
+                <div class="event">
+                    <img src="suwaneeporchjam.jpeg" alt="Event Photo">
+                    <p>Suwanee Summer Porch Jam</p>
+                </div>
+                <div class="event">
+                    <img src="privateevents.jpeg" alt="Event Photo">
+                    <p>Private Christmas Event</p>
+                </div>
+                <div class="event">
+                    <img src="cultivation.jpeg" alt="Event Photo">
+                    <p>Cultivation Brewery</p>
+                </div>
             </div>
         </section>
         <section id="contact">
             <h2>Contact Us</h2>
-            <form action="mailto:yourbandemail@example.com" method="post" enctype="text/plain">
+            <p>Send us a message about your hopes, dreams, successful poops... and any upcoming events!</p>
+            <form action="mailto:kristina@k-jblum.com" method="post" enctype="text/plain">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name">
                 <label for="email">Email:</label>
@@ -99,12 +87,14 @@
                 <textarea id="message" name="message"></textarea>
                 <button type="submit">Send</button>
             </form>
-            <div class="social-media">
-                <a href="https://www.instagram.com/honeyandoates_theband" target="_blank">Instagram</a>
-            </div>
         </section>
     </main>
     <footer>
+        <div class="social-media">
+            <a href="https://www.instagram.com/honeyandoates_theband" target="_blank">
+                <img src="ig.png" alt="Instagram Logo" class="instagram-logo">
+                Follow us on Instagram!</a>
+        </div>
         <p>&copy; 2024 Honey & Oates. All rights reserved.</p>
     </footer>
     <script src="scripts.js"></script>
